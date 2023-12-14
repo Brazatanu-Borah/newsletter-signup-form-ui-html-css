@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Poppins Bold";
+	src: url(fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Poppins Regular";
+	src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Poppins ExtraLight";
+	src: url(fonts/Poppins-ExtraLight.ttf);
+}
+
+
+* {
+	font-family: "Poppins Regular";
+	/* font-weight: 400; */
+	font-style: normal;
+}
+
+html {
+	min-height: 100%;
+	font-size: 18px;
+}
+
+h2,
+label {
+	font-family: "Poppins Bold";
+	/* font-weight: 700; */
+	font-size: 1.5rem;
+}
+
+h2 {
+	margin-top:5rem;
+}
+
+small {
+	font-family: "Poppins ExtraLight";
+}
+
+body {
+	background-color: #8BC6EC;
+	background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+	background-repeat: no-repeat;
+}
+
+footer {
+	margin: 5rem auto 0 auto;
+	width: 50rem;
+	border-radius: 0.2rem;
+	padding: 4rem 1.5rem;
+	background-color: rgb(245, 245, 245);
+	text-align: center;
+}
+
+label,
+small {
+	display: block;
+}
+
+label {
+	margin-bottom: 1rem;
+}
+
+small {
+	margin-top: 1rem;
+}
+
+input[type="email"],
+input[type="submit"] {
+	font-size: 1rem;
+	padding: 0.2rem 1rem;
+}
+
+input[type="email"] {
+	width: 20rem;
+}
+
+input[type="submit"] {
+	padding: 0.2rem 2rem;
+	background-color: rgb(2, 53, 110);
+	color: #fff;
+}
